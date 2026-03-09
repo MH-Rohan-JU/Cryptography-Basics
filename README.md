@@ -18,13 +18,14 @@ source venv/bin/activate
 ```bash
 pip install cryptography zxcvbn bcrypt
 ```
-## To Deactivate (if activated first)
+### To Deactivate (if activated first)
 ```bash
 deactivate
 ```
 
 ## Delete the venv folder
-## For Windows:
+How to delete this virtual environment from your machine
+### For Windows:
 ```bash
 rmdir /s venv
 ```
