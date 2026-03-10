@@ -45,8 +45,8 @@ else
     export VIRTUAL_ENV=/home/rohan/IdeaProjects/Crypto-Basics/venv
 fi
 
-_OLD_VIRTUAL_PATH="$PATH"
-PATH="$VIRTUAL_ENV/"bin":$PATH"
+set _OLD_VIRTUAL_PATH "$PATH"
+set PATH "$VIRTUAL_ENV/"bin":$PATH"
 export PATH
 
 # unset PYTHONHOME if set

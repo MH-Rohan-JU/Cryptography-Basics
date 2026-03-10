@@ -14,7 +14,7 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-### You need to install 
+### You need to install packages 
 ```bash
 pip install cryptography zxcvbn bcrypt
 ```
