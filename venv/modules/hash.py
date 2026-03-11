@@ -1,12 +1,12 @@
 import hashlib
 
-text = "Hello World!"
+# text = "Hello World!"
 
-hash_object = hashlib.sha256(text.encode())
-hash_digest = hash_object.hexdigest()
+# hash_object = hashlib.sha256(text.encode())
+# hash_digest = hash_object.hexdigest()
 
-print("Object: ", hash_object)
-print("SHA has of ", text, " is ", hash_digest)
+# print("Object: ", hash_object)
+# print("SHA has of ", text, " is ", hash_digest)
 
 
 def hash_file(file_path):
